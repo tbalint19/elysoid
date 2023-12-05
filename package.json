@@ -1,0 +1,34 @@
+{
+  "name": "elysoid",
+  "author": "tbalint19",
+  "version": "0.0.1",
+  "exports": {
+    "bun": "./src/lib/authPlugin.ts"
+  },
+  "types": "./dist/authPlugin.d.ts",
+  "keywords": [
+    "elysia",
+    "plugin",
+    "openid",
+    "social-login",
+    "google-login",
+    "simple",
+    "jwt",
+    "stateless",
+    "spa"
+  ],
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "dts": "bun run types.ts"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "0.31.28",
+    "@types/jsonwebtoken": "9.0.5",
+    "elysia": "0.7.30",
+    "jsonwebtoken": "9.0.2"
+  },
+  "devDependencies": {
+    "bun-plugin-dts": "0.2.1",
+    "bun-types": "1.0.15"
+  }
+}
