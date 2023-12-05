@@ -77,6 +77,8 @@ JWT_EXP=2h
 LOG_LEVEL=trace
 # and / or
 AUTH_LOG_LEVEL=trace    # takes precedence
+# default log level is off - no logs from auth plugin
+# [ "fatal", "error", "warn", "info", "debug", "trace", "all" ]
 ```
 
 ```ts
